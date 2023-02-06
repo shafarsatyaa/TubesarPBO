@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author S FAUZI
+ * @author Shafar
  */
 public class MyOrder extends javax.swing.JFrame {
 
