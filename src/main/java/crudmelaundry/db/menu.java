@@ -100,7 +100,7 @@ public class menu extends javax.swing.JFrame {
         Payment.setBackground(new java.awt.Color(223, 223, 128));
         Payment.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         Payment.setForeground(new java.awt.Color(153, 51, 0));
-        Payment.setText("Payment");
+        Payment.setText("How Payment");
         Payment.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PaymentActionPerformed(evt);
@@ -299,8 +299,8 @@ public class menu extends javax.swing.JFrame {
                 .addGap(10, 10, 10)
                 .addComponent(jLabel14)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnOrder)
                 .addContainerGap(150, Short.MAX_VALUE))
         );
